@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 require('dotenv').config()
 
-mongoose.connect("mongodb+srv://KhushiMhasange:Khushi2004@cluster0.d2sb7l4.mongodb.net/tracker?retryWrites=true&w=majority&appName=Cluster0")
+mongoose.connect("mongodb+srv://KhushiMhasange:<password>@cluster0.d2sb7l4.mongodb.net/tracker?retryWrites=true&w=majority&appName=Cluster0")
 .then(()=>console.log("Database Connected !!!"))
 .catch(err=>console.error("Error Connecting to DB :(",err));
 
